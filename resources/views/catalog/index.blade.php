@@ -65,9 +65,10 @@
             <!-- Card without neon border -->
             <div class="relative rounded-3xl overflow-hidden border border-gray-300 dark:border-anime-cardborder bg-white dark:bg-anime-card shadow-lg group">
               <img
-                src="/images/produk/luffy-one-piece.jpg"
+                src="{{ asset('images/produk/luffy-one-piece.jpg') }}"
                 alt="Kaos Anime Luffy King of Pirates Oversized"
                 class="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-500"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80';"
               >
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
 
